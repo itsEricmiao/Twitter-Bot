@@ -14,10 +14,10 @@ public class TwitterInteraction {
 		try {
 			//find the keys here: https://developer.twitter.com/en/apps/
 			ConfigurationBuilder cb = new ConfigurationBuilder();
-			cb.setDebugEnabled(true).setOAuthConsumerKey("") //API Key here
-					.setOAuthConsumerSecret("") //Secret key here
-					.setOAuthAccessToken("") //access token here
-					.setOAuthAccessTokenSecret(""); //secret access token here
+			cb.setDebugEnabled(true).setOAuthConsumerKey("3NAyjDdgfvGWkEa3LCSKRv0yn") //API Key here
+					.setOAuthConsumerSecret("4Lbwn9FZzha0fp7KHX7voerxjKOCIZuwVLuYT23w2P2qJCbhh6") //Secret key here
+					.setOAuthAccessToken("1060597881923612672-Gywtv25hvTEf3Czk7sLochivcj5K2e") //access token here
+					.setOAuthAccessTokenSecret("ds47XftfWrjfq4Pmlqdj2XuUEVogxhsWZVNDzG1wlVfYs"); //secret access token here
 			TwitterFactory tf = new TwitterFactory(cb.build());
 			twitter = tf.getInstance();
 

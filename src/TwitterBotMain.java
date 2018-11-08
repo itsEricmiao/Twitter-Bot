@@ -59,14 +59,14 @@ public class TwitterBotMain extends PApplet {
 		}
 		
 		//Make sure within Twitter limits (used to be 140 but now is more?)
-		String status = "Hello, world -- I am a twitterbot!!";
+		String status = "Okay so this is the best fake name I can come up with... ";
 		tweet.updateTwitter(status);
 				
 		//prints the text content of the sites that come up with the google search of dogs
 		//you may use this content to train your AI too
 		Scraper scraper = new Scraper(); 
 		try {
-			scraper.scrapeGoogleResults("dogs");
+			scraper.scrapeGoogleResults("hello");
 			//scraper.scrape("http://google.com",  "dogs"); //see class documentation
 
 		} catch (JauntException e) {
